@@ -1,0 +1,120 @@
+/*
+  前端换肤方案
+  1、scss 换肤 （覆盖样式）
+  2、vue组件换肤
+  !default 在变量赋值之前， 利用!default为变量指定默认值
+*/
+
+/*字号 start*/
+$fs-48: 0.48rem;
+$fs-46: 0.46rem;
+$fs-40: 0.4rem;
+$fs-36: 0.36rem;
+$fs-34: 0.34rem;
+$fs-32: 0.32rem;
+$fs-30: 0.3rem;
+$fs-28: 0.28rem;
+$fs-26: 0.26rem;
+$fs-24: 0.24rem;
+$fs-22: 0.22rem;
+$fs-20: 0.20rem;
+$fs-18: 0.18rem;
+$fs-16: 0.16rem;
+$fs-14: 0.14rem;
+$fs-12: 0.12rem;
+$fs-10: 0.1rem;
+/*字号 end*/
+
+/* 主题色 */
+$themes1: #3d96ff;
+/* 协助色 */
+$themes2: #00377a;
+/* 图表色1 */
+$echarts1: #fe2c55;
+/* 图表色2 */
+$echarts2: #60a9ff;
+/* 图表色3 */
+$echarts3: #5ec45e;
+/* 图表色4 */
+$echarts4: #32b5b5;
+/* 图表色5 */
+$echarts5: #faad14;
+/* 图表色6 */
+$echarts6: #fe8358;
+/* 图表色7 */
+$echarts7: #9760e3;
+/* 可点击/链接 */
+$link: #378bee;
+/* 表头(#3D96FF, 8%) */
+$tb-head: rgba(61, 150, 255, 0.08);
+/* 反亮(#ffffff, 90%)（ 常用于有背景色的文字 ） */
+$btn-color: rgba(255, 255, 255, 0.9);
+/* 来源 */
+$source: #6c849c;
+/* 边线/滚动条(#323a46, 10%) */
+$border: rgba(50, 58, 70, 0.1);
+/* 待输入/失效/图标(#323a46, 25%) */
+$placeholder: rgba(50, 58, 70, 0.25);
+/* 表单边框颜色 */
+$inp-border: #dcdfe6;
+/*表头上下边线*/
+$th-border: #b9d0ea;
+/* 次文本/摘要/坐标/备注/翻页 */
+$desc: #9a9a9a;
+/* 主文本(#323a46, 85%) */
+$color: rgba(50, 58, 70, 0.85);
+/* 标题色(#323a46, 100%) */
+$title: rgba(50, 58, 70, 1);
+/* 卡片背景色/文本框背景色/表格背景色 */
+$card-bg: #ffffff;
+/* 弹窗背景色 */
+$popup-bg: #fefefe;
+/* 系统背景底色 */
+$bg: #f1f5f8;
+/* 阴影颜色 */
+$shadow: rgba(0, 0, 0, 0.3);
+
+:export {
+  fs-48: $fs-48;
+  fs-46: $fs-46;
+  fs-40: $fs-40;
+  fs-36: $fs-36;
+  fs-34: $fs-34;
+  fs-32: $fs-32;
+  fs-30: $fs-30;
+  fs-28: $fs-28;
+  fs-26: $fs-26;
+  fs-24: $fs-24;
+  fs-22: $fs-22;
+  fs-20: $fs-20;
+  fs-18: $fs-18;
+  fs-16: $fs-16;
+  fs-14: $fs-14;
+  fs-12: $fs-12;
+  fs-10: $fs-10;
+  themes1: $themes1;
+  themes2: $themes2;
+  echarts1: $echarts1;
+  echarts2: $echarts2;
+  echarts3: $echarts3;
+  echarts4: $echarts4;
+  echarts5: $echarts5;
+  echarts6: $echarts6;
+  echarts7: $echarts7;
+  link: $link;
+  tb-head: $tb-head;
+  btn-color: $btn-color;
+  source: $source;
+  border: $border;
+  placeholder: $placeholder;
+  inp-border: $inp-border;
+  th-border: $th-border;
+  desc: $desc;
+  color: $color;
+  title: $title;
+  card-bg: $card-bg;
+  popup-bg: $popup-bg;
+  bg: $bg;
+  shadow: $shadow;
+};
+
